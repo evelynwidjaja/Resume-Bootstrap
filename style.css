@@ -7,6 +7,7 @@
 #services .grid:hover {
     background-color: rgb(255, 192, 203,0.4);
     transition: 0.5s;
+    border-bottom: 2px outset rgb(255, 0, 0) !important;
     cursor: context-menu;
 }
 
@@ -19,3 +20,10 @@
     transition: 0.5s;
     border: 1.5px solid black;
 }
+
+.carousel-inner {
+    height: 250px; 
+}
+
+
+
